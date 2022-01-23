@@ -1,0 +1,22 @@
+body {
+	width: 100vw; 
+	height: 100vh;
+	color: white; 
+	display: block; 
+	/*margin: 0%; */
+	background-color: rgb(48,52,55); 
+	overflow: hidden;
+	text-align: center;
+}
+
+span {
+	background-color: rgb(60,64,67); 
+
+  	vertical-align: bottom;
+	padding: 2%;
+	margin-top: 60vh;
+	font-size: 2vw;
+	width: 9%; 
+	height: .1%;
+	display: inline-block;
+}
