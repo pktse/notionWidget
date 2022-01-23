@@ -21,12 +21,15 @@
 
 		window.onload = function exampleFunction() {
 		  	const d = new Date();
-		    let day1 = (d.getDay()-1).toString();
+		    let day1 = ((d.getDay()-1) % 7).toString();
 		    console.log(day1);
-		    let day2 = (d.getDay()-3).toString();
+		    let day2 = ((d.getDay()-3) % 7).toString();
 		    console.log(day2);
 		    document.getElementById(day2).style.backgroundColor = "#856851";
-		    document.getElementById(day1).style.backgroundColor = "white";
+		    document.getElementById(day1).style.backgroundColor = "red";
+		    document.getElementById((d.getDay()).toString()).style.backgroundColor = "white";
+		    document.getElementById(((d.getDay()+1) % 7).toString()).style.backgroundColor = "white";
+		    document.getElementById(((d.getDay()+2) % 7).toString()).style.backgroundColor = "white";
 		}
 	</script>
 </body>
