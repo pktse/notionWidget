@@ -13,10 +13,12 @@ span {
 	background-color: rgb(60,64,67); 
 
   	vertical-align: bottom;
-	padding: 2%;
-	margin-top: 60vh;
+	/*padding: 2%;*/
+	margin-top: 90vh;
 	font-size: 2vw;
-	width: 9%; 
+	margin-right: 1%;
+	margin-left: 0%;
+	width: 13%; 
 	height: .1%;
 	display: inline-block;
 }
