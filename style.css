@@ -25,10 +25,10 @@ span {
 
 .chart {
   position: absolute;
-  width: 50vw;
-  height: 50vh;
-  top: 25vh;
-  left: 25vw;
+  width: 90vw;
+  height: 90vh;
+  top: 5vh;
+  left: 5vw;
   /*margin: -225px 0 0 -225px;*/
 }
 .pieTip {
