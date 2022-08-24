@@ -5,10 +5,10 @@ $(function(){
   $("#pieChart").drawPieChart([
     { title: "offering",         value : 10,  color: "lightgreen" },
     { title: "tax",               value:  33,   color: "lightblue" },
-    { title: "necessities",        value : 25,   color: "salmon" },
+    { title: "necessities",        value : 17,   color: "salmon" },
     // { title: "necessities",        value : 10,   color: "salmon" },
-    { title: "savings",      value:  25,   color: "lightpink" },
-    { title: "other",        value : 7,   color: "#EB0D42" }
+    { title: "savings",      value:  20,   color: "lightpink" },
+    { title: "other",        value : 20,   color: "#EB0D42" }
     // { title: "other",        value : 22,   color: "#EB0D42" }
   ]);
 });
